@@ -1,0 +1,27 @@
+$grey: #F3F2ED;
+$blue: #058DC7;
+$red: #EE144E;
+$yellow: #F8D77F;
+$pink: #F689A8;
+$dark-grey: #8D8F93;
+$more-dark-grey: #C4C4C4;
+$white-smoke: #F9F8F6;
+$green: #2DD0C6;
+$grey-text: #808080;
+$light-black: #3E3E3E;
+
+$dark-green: #A6C8B3;
+
+@mixin tab {
+    @media screen and (max-width: 950px) {
+        @content;
+    }
+}
+
+@mixin background-init {
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+@import "./blocks/normalize.scss";
+@import "./blocks/styles.scss";
